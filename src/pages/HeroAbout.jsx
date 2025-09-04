@@ -170,6 +170,7 @@ const HeroAbout = () => {
                 className="cta-button primary"
                 whileHover={{ scale: 1.05, boxShadow: "0 0 30px rgba(0, 245, 255, 0.5)" }}
                 whileTap={{ scale: 0.95 }}
+                onClick={() => navigate('/projects')}
               >
                 <span>Explore My Work</span>
               </motion.button>
